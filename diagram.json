@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "author": "João Victor Guimarães",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": -96.6,
+      "left": 139.8,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-rgb-led",
+      "id": "rgb1",
+      "top": 52,
+      "left": -104.5,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 139.2,
+      "left": -115.75,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.8", "joystick1:GND", "black", [ "h147.86", "v-3.25" ] ],
+    [ "pico:3V3", "joystick1:VCC", "red", [ "h0" ] ],
+    [ "joystick1:VERT", "pico:GP26", "green", [ "v67.2" ] ],
+    [ "joystick1:HORZ", "pico:GP27", "green", [ "v67.2" ] ],
+    [ "joystick1:SEL", "pico:GP22", "green", [ "v96" ] ],
+    [ "pico:GP14", "rgb1:R", "red", [ "h0" ] ],
+    [ "pico:GP13", "rgb1:G", "green", [ "h0" ] ],
+    [ "rgb1:B", "pico:GP12", "blue", [ "v0" ] ],
+    [ "rgb1:COM", "r1:1", "black", [ "v0" ] ],
+    [ "r1:2", "pico:GND.4", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
