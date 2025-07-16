@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = 'build/SERVO_RGB_PWM.uf2'
-elf = 'build/SERVO_RGB_PWM.elf'
