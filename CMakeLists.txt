@@ -42,11 +42,13 @@ pico_set_program_version(SERVO_RGB_PWM "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(SERVO_RGB_PWM 0)
-pico_enable_stdio_usb(SERVO_RGB_PWM 0)
+pico_enable_stdio_usb(SERVO_RGB_PWM 1)
 
 # Add the standard library to the build
 target_link_libraries(SERVO_RGB_PWM
-        pico_stdlib)
+        pico_stdlib
+        hardware_adc
+        hardware_pwm)
 
 # Add the standard include files to the build
 target_include_directories(SERVO_RGB_PWM PRIVATE
