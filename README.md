@@ -53,7 +53,7 @@ Este projeto tem como objetivo o controle das cores de um LED RGB através de um
 ## Organização da Equipe
 - **Líder de Projeto: João Victor Guimarães** 
 - **Desenvolvedor 1: Ryan Farias** 
-- **Desenvolvedor 2: João Victor Teixeira Silva** 
+- **Desenvolvedor 2: João Victor Teixeira Slva** 
 
 ---
 
