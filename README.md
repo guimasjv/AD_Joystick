@@ -51,14 +51,15 @@ Este projeto tem como objetivo o controle das cores de um LED RGB através de um
             Botão: ON
 
 ## Organização da Equipe
-- **Líder de Projeto:** 
-- **Desenvolvedor 1:** 
-- **Desenvolvedor 2:** 
+- **Líder de Projeto: João Victor Guimarães** 
+- **Desenvolvedor 1: Ryan Farias** 
+- **Desenvolvedor 2: João Victor Teixeira Silva** 
 
 ---
 
 ## **VÍDEO EXPLICATIVO**
 
+https://drive.google.com/file/d/1YDv92Qj4lw9x-DuUibWfgMvHdtY2YeqE/view?usp=drive_link
 
 ## Licença
 Este projeto é destinado exclusivamente para fins acadêmicos na disciplina **ELET0021 — Microcontroladores e Microprocessadores**.
