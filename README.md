@@ -51,9 +51,9 @@ Este projeto tem como objetivo o controle das cores de um LED RGB através de um
             Botão: ON
 
 ## Organização da Equipe
-- **Líder de Projeto: João Victor Guimarães** 
-- **Desenvolvedor 1: Ryan Farias** 
-- **Desenvolvedor 2: João Victor Teixeira Silva** 
+- **Líder de Projeto: João Victor Guimarães** (Simulação computacional no Wokwi)
+- **Desenvolvedor 1: Ryan Farias** (Compilação no VS Code e gravação de vídeo)
+- **Desenvolvedor 2: João Victor Teixeira Silva** (Escrita do relatório)
 
 ---
 
